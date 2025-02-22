@@ -14,7 +14,7 @@ services:
     ports:
       - "5000:5000"
     environment:
-      - DATABASE_URL=postgres://postgres:password@db:5432/authdb
+      - DATABASE_URL=postgres://postgres:password@db:5432/postgres
     depends_on:
       - db
     networks:
